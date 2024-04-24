@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f2859;
+    color: #fff;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #2f2859;
+    padding: 15px;
+}
+.space {
+    margin-left: 5px;
+	margin-right: 55px;
+    font-size: 1rem;
+    font-weight:200;
+}
+.space-even {
+	margin-right: 7%;
+	margin-left: 0px;
+}
+
+.sponsors {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsors h4 {
+	padding: 20px;
+}
+
+.sponsors .sponsors-images {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 20px;
+}
+
+.sponsors .sponsors-images img {
+	width: 50%;
+}
+
+@media screen and (max-width: 1080px) {
+	.sponsors .sponsors-images {
+		flex-direction: column;
+	}
+
+	.sponsors .sponsors-images img {
+		width: 50%;
+	}
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.main1 {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 1080px) {
+	.main1 {
+		flex-direction: column;
+	}
+}
+
+.left-column,
+.right-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.middle-column {
+	text-align: left;
+}
+
+.horizontal-logos {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.horizontal-logos a {
+	color: white;
+}
+
+.horizontal-logos a:hover {
+	color: #b3b3b3;
+}
+
+.footer-logo {
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+
+.footer-large-logo {
+	width: 300px;
+	height: 150x;
+	margin: 10px;
+}
+.theme {
+    background-color:rgb(251, 116, 19);
+    font-size: 1em;
+}
+
+
+.menu-open {
+    background-color: rgba(242, 237, 91, 0.855);
+}
+.light-mode {
+    background-color:#2f2859;
+    color: #fff;
+}
+  
+.dark-mode {
+    background-color: #080808;
+    color: #fff;
+}
+
+
+.light {
+    margin-top: 5.4rem;
+}
+
+.light #overlap-name {
+    align-items: center;
+}
+
+  
+  /* Apply the blink animation to the button */
+.blinking-button {
+    animation: blink 1s 1; /* Run the animation once */
+  }
+.theme-btn {
+    margin-right: 6%;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 5px;
+    line-height: 1.5;
+  }
+  .heading h1 {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .heading {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+  }
+
+  .Content {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+  }
+
+  .Content p {
+    margin-bottom: 20px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+}
+.nav__text {
+  font-weight: 700;
+}
+.heading0 {
+    padding-top: 65px;
+}
+
+.App {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .main{
+    width: 220px;
+    height: 20%;
+    border-color: white;
+  }
+  .image{
+    height: 220px;  
+    border-radius: 100%;
+  }
+  
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .head2{
+    background-color: #2E86C1 ;
+    color: white;
+    text-align: center;
+    
+  }
+  .head2:hover{
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .button{
+    font-size: 45px;
+    font-weight: 500;
+    background-color: #2E86C1 ;
+    border: none;
+    color: white;
+  }
+  .team {
+    padding-top: 65px;
+  }
+  
